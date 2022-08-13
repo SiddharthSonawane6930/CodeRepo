@@ -6,12 +6,12 @@ int main(){
     cin>>n;
     while (i<n)
     {
-        if (i%2==0)
+        if (n%i==0)
         {
             cout<<"Not a Prime Number";
             break;
         }
-        
+        i++;
     }
     if (i==n)
     {
