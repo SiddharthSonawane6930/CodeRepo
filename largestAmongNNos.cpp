@@ -1,9 +1,10 @@
 #include<iostream>
+#include<climits>
 using namespace std;
 int main(){
 
     int n,no,i=1;
-    int largest = -2147483647;
+    int largest = INT_MIN;
     cin>>n;
     while (i<=n)
     {
